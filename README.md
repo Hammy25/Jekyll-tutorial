@@ -1,2 +1,2 @@
 # Jekyll-tutorial
-Jekyll tutorail repository
+Jekyll tutorial repository
