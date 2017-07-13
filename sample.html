@@ -1,0 +1,15 @@
+---
+layout: news
+---
+
+
+<nav>
+    <ul>
+       {% for post in site.categories.sample %}
+        <li>
+        <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+        <p>{{post.meta}}</p>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>
